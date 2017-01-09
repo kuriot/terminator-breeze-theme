@@ -1,0 +1,27 @@
+[global_config]
+  title_inactive_bg_color = "#31363b"
+  title_inactive_fg_color = "#dce6e7"
+  title_receive_bg_color = "#7f8c8d"
+  title_receive_fg_color = "#fcfcfc"
+  title_transmit_bg_color = "#31363b"
+  title_transmit_fg_color = "#eff0f1"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#31363b"
+    background_image = None
+    cursor_color = "#eff0f1"
+    font = Ubuntu Mono 10
+    foreground_color = "#eff0f1"
+    palette = "#31363b:#ed1515:#11d116:#f67400:#1d99f3:#9b59b6:#1abc9c:#eff0f1:#7f8c8d:#c0392b:#1cdc9a:#fdbc4b:#3daee9:#8e44ad:#16a085:#fcfcfc"
+    use_system_font = False
