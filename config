@@ -1,4 +1,5 @@
 [global_config]
+  geometry_hinting = False
   title_inactive_bg_color = "#31363b"
   title_inactive_fg_color = "#dce6e7"
   title_receive_bg_color = "#7f8c8d"
